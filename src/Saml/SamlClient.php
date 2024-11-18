@@ -1,19 +1,19 @@
 <?php
 
-namespace Ssoready\Saml;
+namespace SSOReady\Saml;
 
-use Ssoready\Core\Client\RawClient;
-use Ssoready\Saml\Requests\RedeemSamlAccessCodeRequest;
-use Ssoready\Types\RedeemSamlAccessCodeResponse;
-use Ssoready\Exceptions\SsoreadyException;
-use Ssoready\Exceptions\SsoreadyApiException;
-use Ssoready\Core\Json\JsonApiRequest;
-use Ssoready\Environments;
-use Ssoready\Core\Client\HttpMethod;
+use SSOReady\Core\Client\RawClient;
+use SSOReady\Saml\Requests\RedeemSamlAccessCodeRequest;
+use SSOReady\Types\RedeemSamlAccessCodeResponse;
+use SSOReady\Exceptions\SsoreadyException;
+use SSOReady\Exceptions\SsoreadyApiException;
+use SSOReady\Core\Json\JsonApiRequest;
+use SSOReady\Environments;
+use SSOReady\Core\Client\HttpMethod;
 use JsonException;
 use Psr\Http\Client\ClientExceptionInterface;
-use Ssoready\Saml\Requests\GetSamlRedirectUrlRequest;
-use Ssoready\Types\GetSamlRedirectUrlResponse;
+use SSOReady\Saml\Requests\GetSamlRedirectUrlRequest;
+use SSOReady\Types\GetSamlRedirectUrlResponse;
 
 class SamlClient
 {

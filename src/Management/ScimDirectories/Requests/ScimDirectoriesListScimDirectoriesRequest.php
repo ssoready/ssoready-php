@@ -1,8 +1,8 @@
 <?php
 
-namespace Ssoready\Management\ScimDirectories\Requests;
+namespace SSOReady\Management\ScimDirectories\Requests;
 
-use Ssoready\Core\Json\JsonSerializableType;
+use SSOReady\Core\Json\JsonSerializableType;
 
 class ScimDirectoriesListScimDirectoriesRequest extends JsonSerializableType
 {

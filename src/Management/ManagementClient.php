@@ -1,12 +1,12 @@
 <?php
 
-namespace Ssoready\Management;
+namespace SSOReady\Management;
 
-use Ssoready\Management\Organizations\OrganizationsClient;
-use Ssoready\Management\SamlConnections\SamlConnectionsClient;
-use Ssoready\Management\ScimDirectories\ScimDirectoriesClient;
-use Ssoready\Management\SetupUrls\SetupUrlsClient;
-use Ssoready\Core\Client\RawClient;
+use SSOReady\Management\Organizations\OrganizationsClient;
+use SSOReady\Management\SamlConnections\SamlConnectionsClient;
+use SSOReady\Management\ScimDirectories\ScimDirectoriesClient;
+use SSOReady\Management\SetupUrls\SetupUrlsClient;
+use SSOReady\Core\Client\RawClient;
 
 class ManagementClient
 {

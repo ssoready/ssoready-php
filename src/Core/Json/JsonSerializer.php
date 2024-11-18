@@ -1,13 +1,13 @@
 <?php
 
-namespace Ssoready\Core\Json;
+namespace SSOReady\Core\Json;
 
 use DateTime;
 use Exception;
 use JsonException;
 use JsonSerializable;
-use Ssoready\Core\Types\Constant;
-use Ssoready\Core\Types\Union;
+use SSOReady\Core\Types\Constant;
+use SSOReady\Core\Types\Union;
 
 class JsonSerializer
 {

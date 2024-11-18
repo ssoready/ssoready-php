@@ -1,21 +1,21 @@
 <?php
 
-namespace Ssoready\Management\Organizations;
+namespace SSOReady\Management\Organizations;
 
-use Ssoready\Core\Client\RawClient;
-use Ssoready\Management\Organizations\Requests\OrganizationsListOrganizationsRequest;
-use Ssoready\Types\ListOrganizationsResponse;
-use Ssoready\Exceptions\SsoreadyException;
-use Ssoready\Exceptions\SsoreadyApiException;
-use Ssoready\Core\Json\JsonApiRequest;
-use Ssoready\Environments;
-use Ssoready\Core\Client\HttpMethod;
+use SSOReady\Core\Client\RawClient;
+use SSOReady\Management\Organizations\Requests\OrganizationsListOrganizationsRequest;
+use SSOReady\Types\ListOrganizationsResponse;
+use SSOReady\Exceptions\SsoreadyException;
+use SSOReady\Exceptions\SsoreadyApiException;
+use SSOReady\Core\Json\JsonApiRequest;
+use SSOReady\Environments;
+use SSOReady\Core\Client\HttpMethod;
 use JsonException;
 use Psr\Http\Client\ClientExceptionInterface;
-use Ssoready\Types\Organization;
-use Ssoready\Types\CreateOrganizationResponse;
-use Ssoready\Types\GetOrganizationResponse;
-use Ssoready\Types\UpdateOrganizationResponse;
+use SSOReady\Types\Organization;
+use SSOReady\Types\CreateOrganizationResponse;
+use SSOReady\Types\GetOrganizationResponse;
+use SSOReady\Types\UpdateOrganizationResponse;
 
 class OrganizationsClient
 {

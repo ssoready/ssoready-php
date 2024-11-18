@@ -1,12 +1,12 @@
 <?php
 
-namespace Ssoready;
+namespace SSOReady;
 
-use Ssoready\Saml\SamlClient;
-use Ssoready\Scim\ScimClient;
-use Ssoready\Management\ManagementClient;
+use SSOReady\Saml\SamlClient;
+use SSOReady\Scim\ScimClient;
+use SSOReady\Management\ManagementClient;
 use GuzzleHttp\ClientInterface;
-use Ssoready\Core\Client\RawClient;
+use SSOReady\Core\Client\RawClient;
 use Exception;
 
 class SsoreadyClient
@@ -56,8 +56,8 @@ class SsoreadyClient
         $defaultHeaders = [
             'Authorization' => "Bearer $apiKey",
             'X-Fern-Language' => 'PHP',
-            'X-Fern-SDK-Name' => 'Ssoready',
-            'X-Fern-SDK-Version' => '0.1.0',
+            'X-Fern-SDK-Name' => 'SSOReady',
+            'X-Fern-SDK-Version' => '0.1.1',
         ];
 
         $this->options = $options ?? [];

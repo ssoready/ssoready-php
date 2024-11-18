@@ -1,15 +1,15 @@
 <?php
 
-namespace Ssoready\Core\Json;
+namespace SSOReady\Core\Json;
 
 use DateTime;
 use Exception;
 use JsonException;
 use ReflectionNamedType;
 use ReflectionProperty;
-use Ssoready\Core\Types\ArrayType;
-use Ssoready\Core\Types\Date;
-use Ssoready\Core\Types\Union;
+use SSOReady\Core\Types\ArrayType;
+use SSOReady\Core\Types\Date;
+use SSOReady\Core\Types\Union;
 
 /**
  * Provides generic serialization and deserialization methods.

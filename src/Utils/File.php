@@ -1,11 +1,11 @@
 <?php
 
-namespace Ssoready\Utils;
+namespace SSOReady\Utils;
 
 use Exception;
 use GuzzleHttp\Psr7\Utils;
 use Psr\Http\Message\StreamInterface;
-use Ssoready\Core\Multipart\MultipartFormDataPart;
+use SSOReady\Core\Multipart\MultipartFormDataPart;
 
 /**
  * File is a utility class used to transfer files as multipart form data.

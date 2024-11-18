@@ -1,6 +1,6 @@
 <?php
 
-namespace Ssoready;
+namespace SSOReady;
 
 enum Environments: string
 {

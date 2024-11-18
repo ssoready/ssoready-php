@@ -1,21 +1,21 @@
 <?php
 
-namespace Ssoready\Scim;
+namespace SSOReady\Scim;
 
-use Ssoready\Core\Client\RawClient;
-use Ssoready\Scim\Requests\ScimListScimGroupsRequest;
-use Ssoready\Types\ListScimGroupsResponse;
-use Ssoready\Exceptions\SsoreadyException;
-use Ssoready\Exceptions\SsoreadyApiException;
-use Ssoready\Core\Json\JsonApiRequest;
-use Ssoready\Environments;
-use Ssoready\Core\Client\HttpMethod;
+use SSOReady\Core\Client\RawClient;
+use SSOReady\Scim\Requests\ScimListScimGroupsRequest;
+use SSOReady\Types\ListScimGroupsResponse;
+use SSOReady\Exceptions\SsoreadyException;
+use SSOReady\Exceptions\SsoreadyApiException;
+use SSOReady\Core\Json\JsonApiRequest;
+use SSOReady\Environments;
+use SSOReady\Core\Client\HttpMethod;
 use JsonException;
 use Psr\Http\Client\ClientExceptionInterface;
-use Ssoready\Types\GetScimGroupResponse;
-use Ssoready\Scim\Requests\ScimListScimUsersRequest;
-use Ssoready\Types\ListScimUsersResponse;
-use Ssoready\Types\GetScimUserResponse;
+use SSOReady\Types\GetScimGroupResponse;
+use SSOReady\Scim\Requests\ScimListScimUsersRequest;
+use SSOReady\Types\ListScimUsersResponse;
+use SSOReady\Types\GetScimUserResponse;
 
 class ScimClient
 {

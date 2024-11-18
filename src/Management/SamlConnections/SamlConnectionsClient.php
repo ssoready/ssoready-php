@@ -1,21 +1,21 @@
 <?php
 
-namespace Ssoready\Management\SamlConnections;
+namespace SSOReady\Management\SamlConnections;
 
-use Ssoready\Core\Client\RawClient;
-use Ssoready\Management\SamlConnections\Requests\SamlConnectionsListSamlConnectionsRequest;
-use Ssoready\Types\ListSamlConnectionsResponse;
-use Ssoready\Exceptions\SsoreadyException;
-use Ssoready\Exceptions\SsoreadyApiException;
-use Ssoready\Core\Json\JsonApiRequest;
-use Ssoready\Environments;
-use Ssoready\Core\Client\HttpMethod;
+use SSOReady\Core\Client\RawClient;
+use SSOReady\Management\SamlConnections\Requests\SamlConnectionsListSamlConnectionsRequest;
+use SSOReady\Types\ListSamlConnectionsResponse;
+use SSOReady\Exceptions\SsoreadyException;
+use SSOReady\Exceptions\SsoreadyApiException;
+use SSOReady\Core\Json\JsonApiRequest;
+use SSOReady\Environments;
+use SSOReady\Core\Client\HttpMethod;
 use JsonException;
 use Psr\Http\Client\ClientExceptionInterface;
-use Ssoready\Types\SamlConnection;
-use Ssoready\Types\CreateSamlConnectionResponse;
-use Ssoready\Types\GetSamlConnectionResponse;
-use Ssoready\Types\UpdateSamlConnectionResponse;
+use SSOReady\Types\SamlConnection;
+use SSOReady\Types\CreateSamlConnectionResponse;
+use SSOReady\Types\GetSamlConnectionResponse;
+use SSOReady\Types\UpdateSamlConnectionResponse;
 
 class SamlConnectionsClient
 {

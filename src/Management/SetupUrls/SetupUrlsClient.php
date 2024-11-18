@@ -1,15 +1,15 @@
 <?php
 
-namespace Ssoready\Management\SetupUrls;
+namespace SSOReady\Management\SetupUrls;
 
-use Ssoready\Core\Client\RawClient;
-use Ssoready\Management\SetupUrls\Requests\CreateSetupUrlRequest;
-use Ssoready\Types\CreateSetupUrlResponse;
-use Ssoready\Exceptions\SsoreadyException;
-use Ssoready\Exceptions\SsoreadyApiException;
-use Ssoready\Core\Json\JsonApiRequest;
-use Ssoready\Environments;
-use Ssoready\Core\Client\HttpMethod;
+use SSOReady\Core\Client\RawClient;
+use SSOReady\Management\SetupUrls\Requests\CreateSetupUrlRequest;
+use SSOReady\Types\CreateSetupUrlResponse;
+use SSOReady\Exceptions\SsoreadyException;
+use SSOReady\Exceptions\SsoreadyApiException;
+use SSOReady\Core\Json\JsonApiRequest;
+use SSOReady\Environments;
+use SSOReady\Core\Client\HttpMethod;
 use JsonException;
 use Psr\Http\Client\ClientExceptionInterface;
 

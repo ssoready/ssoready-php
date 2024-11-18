@@ -1,12 +1,12 @@
 <?php
 
-namespace Ssoready\Tests\Core\Json;
+namespace SSOReady\Tests\Core\Json;
 
 use JsonSerializable;
 use PHPUnit\Framework\TestCase;
-use Ssoready\Core\Json\JsonProperty;
-use Ssoready\Core\Json\JsonSerializableType;
-use Ssoready\Core\Types\ArrayType;
+use SSOReady\Core\Json\JsonProperty;
+use SSOReady\Core\Json\JsonSerializableType;
+use SSOReady\Core\Types\ArrayType;
 
 enum Shape: string implements JsonSerializable
 {

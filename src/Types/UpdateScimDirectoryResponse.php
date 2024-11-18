@@ -1,9 +1,9 @@
 <?php
 
-namespace Ssoready\Types;
+namespace SSOReady\Types;
 
-use Ssoready\Core\Json\JsonSerializableType;
-use Ssoready\Core\Json\JsonProperty;
+use SSOReady\Core\Json\JsonSerializableType;
+use SSOReady\Core\Json\JsonProperty;
 
 class UpdateScimDirectoryResponse extends JsonSerializableType
 {

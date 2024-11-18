@@ -1,6 +1,6 @@
 <?php
 
-namespace Ssoready\Core\Client;
+namespace SSOReady\Core\Client;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -11,8 +11,8 @@ use InvalidArgumentException;
 use Psr\Http\Client\ClientExceptionInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
-use Ssoready\Core\Json\JsonApiRequest;
-use Ssoready\Core\Multipart\MultipartApiRequest;
+use SSOReady\Core\Json\JsonApiRequest;
+use SSOReady\Core\Multipart\MultipartApiRequest;
 
 class RawClient
 {

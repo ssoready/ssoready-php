@@ -1,8 +1,8 @@
 
 {
   "name": "ssoready/ssoready",
-  "version": "0.1.0",
-  "description": "Ssoready PHP Library",
+  "version": "0.1.1",
+  "description": "SSOReady PHP Library",
   "keywords": [
     "ssoready",
     "api",
@@ -21,12 +21,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ssoready\\": "src/"
+      "SSOReady\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "\\Ssoready\\Tests\\": "tests/"
+      "\\SSOReady\\Tests\\": "tests/"
     }
   },
   "scripts": {

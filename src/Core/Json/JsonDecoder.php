@@ -1,11 +1,11 @@
 <?php
 
-namespace Ssoready\Core\Json;
+namespace SSOReady\Core\Json;
 
 use DateTime;
 use Exception;
 use JsonException;
-use Ssoready\Core\Types\Union;
+use SSOReady\Core\Types\Union;
 
 class JsonDecoder
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ssoready\Management\Organizations\Requests;
+namespace SSOReady\Management\Organizations\Requests;
 
-use Ssoready\Core\Json\JsonSerializableType;
+use SSOReady\Core\Json\JsonSerializableType;
 
 class OrganizationsListOrganizationsRequest extends JsonSerializableType
 {

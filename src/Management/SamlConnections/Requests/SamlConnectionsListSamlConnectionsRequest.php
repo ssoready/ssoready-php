@@ -1,8 +1,8 @@
 <?php
 
-namespace Ssoready\Management\SamlConnections\Requests;
+namespace SSOReady\Management\SamlConnections\Requests;
 
-use Ssoready\Core\Json\JsonSerializableType;
+use SSOReady\Core\Json\JsonSerializableType;
 
 class SamlConnectionsListSamlConnectionsRequest extends JsonSerializableType
 {

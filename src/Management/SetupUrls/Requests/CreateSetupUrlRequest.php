@@ -1,9 +1,9 @@
 <?php
 
-namespace Ssoready\Management\SetupUrls\Requests;
+namespace SSOReady\Management\SetupUrls\Requests;
 
-use Ssoready\Core\Json\JsonSerializableType;
-use Ssoready\Core\Json\JsonProperty;
+use SSOReady\Core\Json\JsonSerializableType;
+use SSOReady\Core\Json\JsonProperty;
 
 class CreateSetupUrlRequest extends JsonSerializableType
 {

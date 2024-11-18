@@ -1,8 +1,8 @@
 <?php
 
-namespace Ssoready\Scim\Requests;
+namespace SSOReady\Scim\Requests;
 
-use Ssoready\Core\Json\JsonSerializableType;
+use SSOReady\Core\Json\JsonSerializableType;
 
 class ScimListScimGroupsRequest extends JsonSerializableType
 {

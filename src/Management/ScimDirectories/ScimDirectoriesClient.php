@@ -1,22 +1,22 @@
 <?php
 
-namespace Ssoready\Management\ScimDirectories;
+namespace SSOReady\Management\ScimDirectories;
 
-use Ssoready\Core\Client\RawClient;
-use Ssoready\Management\ScimDirectories\Requests\ScimDirectoriesListScimDirectoriesRequest;
-use Ssoready\Types\ListScimDirectoriesResponse;
-use Ssoready\Exceptions\SsoreadyException;
-use Ssoready\Exceptions\SsoreadyApiException;
-use Ssoready\Core\Json\JsonApiRequest;
-use Ssoready\Environments;
-use Ssoready\Core\Client\HttpMethod;
+use SSOReady\Core\Client\RawClient;
+use SSOReady\Management\ScimDirectories\Requests\ScimDirectoriesListScimDirectoriesRequest;
+use SSOReady\Types\ListScimDirectoriesResponse;
+use SSOReady\Exceptions\SsoreadyException;
+use SSOReady\Exceptions\SsoreadyApiException;
+use SSOReady\Core\Json\JsonApiRequest;
+use SSOReady\Environments;
+use SSOReady\Core\Client\HttpMethod;
 use JsonException;
 use Psr\Http\Client\ClientExceptionInterface;
-use Ssoready\Types\ScimDirectory;
-use Ssoready\Types\CreateScimDirectoryResponse;
-use Ssoready\Types\GetScimDirectoryResponse;
-use Ssoready\Types\UpdateScimDirectoryResponse;
-use Ssoready\Types\RotateScimDirectoryBearerTokenResponse;
+use SSOReady\Types\ScimDirectory;
+use SSOReady\Types\CreateScimDirectoryResponse;
+use SSOReady\Types\GetScimDirectoryResponse;
+use SSOReady\Types\UpdateScimDirectoryResponse;
+use SSOReady\Types\RotateScimDirectoryBearerTokenResponse;
 
 class ScimDirectoriesClient
 {

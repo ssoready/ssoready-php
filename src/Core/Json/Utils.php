@@ -1,6 +1,6 @@
 <?php
 
-namespace Ssoready\Core\Json;
+namespace SSOReady\Core\Json;
 
 use DateTime;
 use Exception;

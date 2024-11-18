@@ -1,6 +1,6 @@
 <?php
 
-namespace Ssoready\Core\Multipart;
+namespace SSOReady\Core\Multipart;
 
 use Psr\Http\Message\StreamInterface;
 

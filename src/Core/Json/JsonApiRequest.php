@@ -1,9 +1,9 @@
 <?php
 
-namespace Ssoready\Core\Json;
+namespace SSOReady\Core\Json;
 
-use Ssoready\Core\Client\BaseApiRequest;
-use Ssoready\Core\Client\HttpMethod;
+use SSOReady\Core\Client\BaseApiRequest;
+use SSOReady\Core\Client\HttpMethod;
 
 class JsonApiRequest extends BaseApiRequest
 {

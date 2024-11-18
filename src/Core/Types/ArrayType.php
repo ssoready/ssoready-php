@@ -1,6 +1,6 @@
 <?php
 
-namespace Ssoready\Core\Types;
+namespace SSOReady\Core\Types;
 
 use Attribute;
 

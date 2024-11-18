@@ -1,6 +1,6 @@
 <?php
 
-namespace Ssoready\Exceptions;
+namespace SSOReady\Exceptions;
 
 use Throwable;
 

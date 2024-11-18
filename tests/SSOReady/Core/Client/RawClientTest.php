@@ -1,6 +1,6 @@
 <?php
 
-namespace Ssoready\Tests\Core\Client;
+namespace SSOReady\Tests\Core\Client;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
@@ -8,10 +8,10 @@ use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
-use Ssoready\Core\Client\BaseApiRequest;
-use Ssoready\Core\Client\HttpMethod;
-use Ssoready\Core\Client\RawClient;
-use Ssoready\Core\Json\JsonApiRequest;
+use SSOReady\Core\Client\BaseApiRequest;
+use SSOReady\Core\Client\HttpMethod;
+use SSOReady\Core\Client\RawClient;
+use SSOReady\Core\Json\JsonApiRequest;
 
 class RawClientTest extends TestCase
 {

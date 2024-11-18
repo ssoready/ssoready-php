@@ -1,6 +1,6 @@
 <?php
 
-namespace Ssoready\Core\Client;
+namespace SSOReady\Core\Client;
 
 abstract class BaseApiRequest
 {
