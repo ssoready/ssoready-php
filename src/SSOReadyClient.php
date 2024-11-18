@@ -9,7 +9,7 @@ use GuzzleHttp\ClientInterface;
 use SSOReady\Core\Client\RawClient;
 use Exception;
 
-class SsoreadyClient
+class SSOReadyClient
 {
     /**
      * @var SamlClient $saml
@@ -57,7 +57,7 @@ class SsoreadyClient
             'Authorization' => "Bearer $apiKey",
             'X-Fern-Language' => 'PHP',
             'X-Fern-SDK-Name' => 'SSOReady',
-            'X-Fern-SDK-Version' => '0.1.1',
+            'X-Fern-SDK-Version' => '0.1.2',
         ];
 
         $this->options = $options ?? [];
