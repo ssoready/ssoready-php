@@ -57,7 +57,7 @@ class SSOReadyClient
             'Authorization' => "Bearer $apiKey",
             'X-Fern-Language' => 'PHP',
             'X-Fern-SDK-Name' => 'SSOReady',
-            'X-Fern-SDK-Version' => '1.0.0',
+            'X-Fern-SDK-Version' => '1.0.1',
         ];
 
         $this->options = $options ?? [];
