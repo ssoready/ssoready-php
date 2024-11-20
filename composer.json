@@ -1,14 +1,14 @@
 
 {
   "name": "ssoready/ssoready",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "SSOReady PHP Library",
   "keywords": [
     "ssoready",
     "api",
     "sdk"
   ],
-  "license": ["MIT"],
+  "license": [],
   "require": {
     "php": "^8.1",
     "ext-json": "*",
